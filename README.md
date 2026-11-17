@@ -29,17 +29,26 @@ Push-уведомления Яндекса идут через AppMetrica Push, 
 ## 🩹 Список патчей
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0-dev.1](https://github.com/murikbmx/yanmus/releases/tag/v1.0.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+<details open>
+<summary>📦 Яндекс Музыка&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
+<br>
 
-<!-- Do not modify this section by hand. The patch list is generated when release.yml creates a new release.
-     
-     If you wish for the patches list to be collapsed, then remove the word 'EXPANDED' from the comment tag above.
+**Package name:** `ru.yandex.music`
 
-     If you wish to manually keep this list updated then remove the PATCHES_START and PATCHES_END 
-     comment blocks entirely. -->
+**🎯 Supported versions:**
 
-#### A list of your patches will automatically be shown here after your first patches release is created.
+| 2026.11.1 #171gpr |
+| :---: |
 
-&nbsp;
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Disable AppMetrica](#disable-appmetrica) | Отключает отправку аналитики AppMetrica: события, ошибки, сессии и местоположение не отправляются. Идентификаторы устройства для входа в аккаунт продолжают работать. Push-уведомления Яндекса, которые идут через AppMetrica Push, могут перестать приходить. |  |
+| [Disable AppsFlyer](#disable-appsflyer) | Отключает рекламный трекер AppsFlyer: он не запускается и не отправляет события. |  |
+| [Disable Firebase telemetry](#disable-firebase-telemetry) | Отключает Firebase Analytics, Crashlytics, Performance и сбор рекламного ID через флаги манифеста. |  |
+| [Remove tracker components](#remove-tracker-components) | Экспериментально. Удаляет из манифеста сервисы и ресиверы трекеров (AppsFlyer, Firebase Analytics/Crashlytics/Sessions). |  |
+
+</details>
 
 <!-- PATCHES_END -->
 
