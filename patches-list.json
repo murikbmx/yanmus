@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
+  "version": "1.0.1-dev.1",
   "patches": [
     {
       "name": "Disable AppMetrica",
@@ -73,6 +73,40 @@
     {
       "name": "Disable Firebase telemetry",
       "description": "Отключает Firebase Analytics, Crashlytics, Performance и сбор рекламного ID через флаги манифеста.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "ru.yandex.music",
+          "name": "Яндекс Музыка",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#FFCC00",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "2026.11.1 #171gpr",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Extract native libraries",
+      "description": "Исправляет ошибку установки INSTALL_FAILED_NO_MATCHING_ABIS после патчинга на телефоне: библиотеки извлекаются при установке (приложение займёт на пару МБ больше).",
       "default": true,
       "category": null,
       "compatiblePackages": [
