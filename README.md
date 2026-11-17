@@ -29,7 +29,7 @@ Push-уведомления Яндекса идут через AppMetrica Push, 
 ## 🩹 Список патчей
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.1-dev.1](https://github.com/murikbmx/yanmus/releases/tag/v1.0.1-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;5 patches total
+> **[v1.0.1](https://github.com/murikbmx/yanmus/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;5 patches total
 <details open>
 <summary>📦 Яндекс Музыка&nbsp;&nbsp;•&nbsp;&nbsp;5 patches</summary>
 <br>
